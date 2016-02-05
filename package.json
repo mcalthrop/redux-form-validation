@@ -1,12 +1,12 @@
 {
-  "name": "redux-form-validation",
+  "name": "@mcalthrop/redux-form-validation",
   "version": "0.0.6",
-  "description": "An helper to make redux form validation easyer",
+  "description": "A helper to make redux form validation easier",
   "main": "lib/index.js",
   "jsnext:main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CosticaPuntaru/redux-form-validation.git"
+    "url": "git+https://github.com/mcalthrop/redux-form-validation"
   },
   "keywords": [
     "react",
@@ -19,9 +19,9 @@
   "author": "Costica Puntaru <costica.puntaru@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CosticaPuntaru/redux-form-validation/issues"
+    "url": "https://github.com/mcalthrop/redux-form-validation"
   },
-  "homepage": "https://github.com/CosticaPuntaru/redux-form-validation#readme",
+  "homepage": "https://github.com/mcalthrop/redux-form-validation#readme",
   "peerDependencies": {
     "react-redux": "^3.0.0 || ^4.0.0",
     "redux": "^3.0.0"
@@ -34,7 +34,6 @@
     "clean": "rimraf dist lib",
     "lint": "eslint src",
     "prepublish": "npm run clean && npm run build",
-    "postinstall": "npm run prepublish",
     "test": "npm run lint && mocha --compilers js:babel/register --recursive 'src/**/__tests__/*.spec.js' --require src/__tests__/setup.js"
   },
   "devDependencies": {
