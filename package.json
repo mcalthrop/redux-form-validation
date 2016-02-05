@@ -1,6 +1,6 @@
 {
   "name": "@mcalthrop/redux-form-validation",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A helper to make redux form validation easier",
   "main": "lib/index.js",
   "jsnext:main": "./src/index.js",
