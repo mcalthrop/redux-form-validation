@@ -1,7 +1,11 @@
 # redux-form-validation
 
+## Note
+
+This package is a fork of the original [`redux-form-validation`](https://www.npmjs.com/package/redux-form-validation) package by [ticaasd](https://www.npmjs.com/~ticaasd).
+
 ## Installation
-```npm install --save redux-form-validation```
+`npm install --save @mcalthrop/redux-form-validation`
 
 ## How to use
 adds a helper to display and validate fields for redux-form
