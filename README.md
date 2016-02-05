@@ -16,7 +16,7 @@ builtin validation can be found in /src/basic-validation.js
 ### How to add your validation:
 ```javascript
 
-  import FormMessages from 'redux-form-validation';
+  import FormMessages from '@mcalthrop/redux-form-validation';
   
   FormMessages.addValidation('required', function (field, value, prop) {
      return prop ? !value : false
@@ -44,8 +44,8 @@ example for how to use validator:
    import {reduxForm} from 'redux-form';
    import {connect} from 'react-redux';
    import {sendMail} from 'redux/modules/email-to-support.js';
-   import FormMessages from 'redux-form-validation';
-   import {generateValidation} from 'redux-form-validation';
+   import FormMessages from '@mcalthrop/redux-form-validation';
+   import {generateValidation} from '@mcalthrop/redux-form-validation';
    
    var validations = {
      email: {
